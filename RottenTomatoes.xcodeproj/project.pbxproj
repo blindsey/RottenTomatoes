@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CFE293180F873D00946D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CFE292180F873D00946D84 /* Foundation.framework */; };
+		13CFE295180F873D00946D84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CFE294180F873D00946D84 /* CoreGraphics.framework */; };
+		13CFE297180F873D00946D84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CFE296180F873D00946D84 /* UIKit.framework */; };
+		13CFE29D180F873D00946D84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13CFE29B180F873D00946D84 /* InfoPlist.strings */; };
+		13CFE29F180F873D00946D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CFE29E180F873D00946D84 /* main.m */; };
+		13CFE2A3180F873D00946D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CFE2A2180F873D00946D84 /* AppDelegate.m */; };
+		13CFE2A6180F873D00946D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CFE2A4180F873D00946D84 /* Main.storyboard */; };
+		13CFE2AB180F873D00946D84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CFE2AA180F873D00946D84 /* Images.xcassets */; };
+		13CFE2B2180F873D00946D84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CFE2B1180F873D00946D84 /* XCTest.framework */; };
+		13CFE2B3180F873D00946D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CFE292180F873D00946D84 /* Foundation.framework */; };
+		13CFE2B4180F873D00946D84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CFE296180F873D00946D84 /* UIKit.framework */; };
+		13CFE2BC180F873D00946D84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13CFE2BA180F873D00946D84 /* InfoPlist.strings */; };
+		13CFE2BE180F873D00946D84 /* RottenTomatoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CFE2BD180F873D00946D84 /* RottenTomatoesTests.m */; };
+		13CFE2C9180F875B00946D84 /* BoxOfficeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CFE2C8180F875B00946D84 /* BoxOfficeViewController.m */; };
+		13CFE2CC180F88C000946D84 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CFE2CB180F88C000946D84 /* MovieCell.m */; };
+		13CFE2CF180F8F8100946D84 /* RottenTomatoesClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CFE2CE180F8F8100946D84 /* RottenTomatoesClient.m */; };
+		13CFE2D2180F92DF00946D84 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CFE2D1180F92DF00946D84 /* Movie.m */; };
+		24FC6796B8B84B79B464AF78 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F562B343378241C2AC56574B /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13CFE2B5180F873D00946D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CFE287180F873D00946D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CFE28E180F873D00946D84;
+			remoteInfo = RottenTomatoes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13CFE28F180F873D00946D84 /* RottenTomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RottenTomatoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CFE292180F873D00946D84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13CFE294180F873D00946D84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13CFE296180F873D00946D84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13CFE29A180F873D00946D84 /* RottenTomatoes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RottenTomatoes-Info.plist"; sourceTree = "<group>"; };
+		13CFE29C180F873D00946D84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13CFE29E180F873D00946D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13CFE2A0180F873D00946D84 /* RottenTomatoes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RottenTomatoes-Prefix.pch"; sourceTree = "<group>"; };
+		13CFE2A1180F873D00946D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13CFE2A2180F873D00946D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13CFE2A5180F873D00946D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13CFE2AA180F873D00946D84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13CFE2B0180F873D00946D84 /* RottenTomatoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RottenTomatoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CFE2B1180F873D00946D84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13CFE2B9180F873D00946D84 /* RottenTomatoesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RottenTomatoesTests-Info.plist"; sourceTree = "<group>"; };
+		13CFE2BB180F873D00946D84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13CFE2BD180F873D00946D84 /* RottenTomatoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RottenTomatoesTests.m; sourceTree = "<group>"; };
+		13CFE2C7180F875B00946D84 /* BoxOfficeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxOfficeViewController.h; sourceTree = "<group>"; };
+		13CFE2C8180F875B00946D84 /* BoxOfficeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxOfficeViewController.m; sourceTree = "<group>"; };
+		13CFE2CA180F88C000946D84 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		13CFE2CB180F88C000946D84 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		13CFE2CD180F8F8100946D84 /* RottenTomatoesClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RottenTomatoesClient.h; sourceTree = "<group>"; };
+		13CFE2CE180F8F8100946D84 /* RottenTomatoesClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RottenTomatoesClient.m; sourceTree = "<group>"; };
+		13CFE2D0180F92DF00946D84 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		13CFE2D1180F92DF00946D84 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		62B8603E9DA74C80BAD81B57 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F562B343378241C2AC56574B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13CFE28C180F873D00946D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFE295180F873D00946D84 /* CoreGraphics.framework in Frameworks */,
+				13CFE297180F873D00946D84 /* UIKit.framework in Frameworks */,
+				13CFE293180F873D00946D84 /* Foundation.framework in Frameworks */,
+				24FC6796B8B84B79B464AF78 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CFE2AD180F873D00946D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFE2B2180F873D00946D84 /* XCTest.framework in Frameworks */,
+				13CFE2B4180F873D00946D84 /* UIKit.framework in Frameworks */,
+				13CFE2B3180F873D00946D84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13CFE286180F873D00946D84 = {
+			isa = PBXGroup;
+			children = (
+				13CFE298180F873D00946D84 /* RottenTomatoes */,
+				13CFE2B7180F873D00946D84 /* RottenTomatoesTests */,
+				13CFE291180F873D00946D84 /* Frameworks */,
+				13CFE290180F873D00946D84 /* Products */,
+				62B8603E9DA74C80BAD81B57 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		13CFE290180F873D00946D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13CFE28F180F873D00946D84 /* RottenTomatoes.app */,
+				13CFE2B0180F873D00946D84 /* RottenTomatoesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13CFE291180F873D00946D84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13CFE292180F873D00946D84 /* Foundation.framework */,
+				13CFE294180F873D00946D84 /* CoreGraphics.framework */,
+				13CFE296180F873D00946D84 /* UIKit.framework */,
+				13CFE2B1180F873D00946D84 /* XCTest.framework */,
+				F562B343378241C2AC56574B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13CFE298180F873D00946D84 /* RottenTomatoes */ = {
+			isa = PBXGroup;
+			children = (
+				13CFE2A1180F873D00946D84 /* AppDelegate.h */,
+				13CFE2A2180F873D00946D84 /* AppDelegate.m */,
+				13CFE2A4180F873D00946D84 /* Main.storyboard */,
+				13CFE2AA180F873D00946D84 /* Images.xcassets */,
+				13CFE299180F873D00946D84 /* Supporting Files */,
+				13CFE2C7180F875B00946D84 /* BoxOfficeViewController.h */,
+				13CFE2C8180F875B00946D84 /* BoxOfficeViewController.m */,
+				13CFE2CA180F88C000946D84 /* MovieCell.h */,
+				13CFE2CB180F88C000946D84 /* MovieCell.m */,
+				13CFE2CD180F8F8100946D84 /* RottenTomatoesClient.h */,
+				13CFE2CE180F8F8100946D84 /* RottenTomatoesClient.m */,
+				13CFE2D0180F92DF00946D84 /* Movie.h */,
+				13CFE2D1180F92DF00946D84 /* Movie.m */,
+			);
+			path = RottenTomatoes;
+			sourceTree = "<group>";
+		};
+		13CFE299180F873D00946D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13CFE29A180F873D00946D84 /* RottenTomatoes-Info.plist */,
+				13CFE29B180F873D00946D84 /* InfoPlist.strings */,
+				13CFE29E180F873D00946D84 /* main.m */,
+				13CFE2A0180F873D00946D84 /* RottenTomatoes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13CFE2B7180F873D00946D84 /* RottenTomatoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				13CFE2BD180F873D00946D84 /* RottenTomatoesTests.m */,
+				13CFE2B8180F873D00946D84 /* Supporting Files */,
+			);
+			path = RottenTomatoesTests;
+			sourceTree = "<group>";
+		};
+		13CFE2B8180F873D00946D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13CFE2B9180F873D00946D84 /* RottenTomatoesTests-Info.plist */,
+				13CFE2BA180F873D00946D84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13CFE28E180F873D00946D84 /* RottenTomatoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CFE2C1180F873E00946D84 /* Build configuration list for PBXNativeTarget "RottenTomatoes" */;
+			buildPhases = (
+				36283039B62249F9BEFB1621 /* Check Pods Manifest.lock */,
+				13CFE28B180F873D00946D84 /* Sources */,
+				13CFE28C180F873D00946D84 /* Frameworks */,
+				13CFE28D180F873D00946D84 /* Resources */,
+				450AC1FEA5A54F4EB13F93AA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RottenTomatoes;
+			productName = RottenTomatoes;
+			productReference = 13CFE28F180F873D00946D84 /* RottenTomatoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13CFE2AF180F873D00946D84 /* RottenTomatoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CFE2C4180F873E00946D84 /* Build configuration list for PBXNativeTarget "RottenTomatoesTests" */;
+			buildPhases = (
+				13CFE2AC180F873D00946D84 /* Sources */,
+				13CFE2AD180F873D00946D84 /* Frameworks */,
+				13CFE2AE180F873D00946D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13CFE2B6180F873D00946D84 /* PBXTargetDependency */,
+			);
+			name = RottenTomatoesTests;
+			productName = RottenTomatoesTests;
+			productReference = 13CFE2B0180F873D00946D84 /* RottenTomatoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13CFE287180F873D00946D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ben Lindsey";
+				TargetAttributes = {
+					13CFE2AF180F873D00946D84 = {
+						TestTargetID = 13CFE28E180F873D00946D84;
+					};
+				};
+			};
+			buildConfigurationList = 13CFE28A180F873D00946D84 /* Build configuration list for PBXProject "RottenTomatoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13CFE286180F873D00946D84;
+			productRefGroup = 13CFE290180F873D00946D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13CFE28E180F873D00946D84 /* RottenTomatoes */,
+				13CFE2AF180F873D00946D84 /* RottenTomatoesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13CFE28D180F873D00946D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFE2AB180F873D00946D84 /* Images.xcassets in Resources */,
+				13CFE29D180F873D00946D84 /* InfoPlist.strings in Resources */,
+				13CFE2A6180F873D00946D84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CFE2AE180F873D00946D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFE2BC180F873D00946D84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36283039B62249F9BEFB1621 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		450AC1FEA5A54F4EB13F93AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13CFE28B180F873D00946D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFE2D2180F92DF00946D84 /* Movie.m in Sources */,
+				13CFE2CF180F8F8100946D84 /* RottenTomatoesClient.m in Sources */,
+				13CFE2A3180F873D00946D84 /* AppDelegate.m in Sources */,
+				13CFE2C9180F875B00946D84 /* BoxOfficeViewController.m in Sources */,
+				13CFE2CC180F88C000946D84 /* MovieCell.m in Sources */,
+				13CFE29F180F873D00946D84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CFE2AC180F873D00946D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFE2BE180F873D00946D84 /* RottenTomatoesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13CFE2B6180F873D00946D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CFE28E180F873D00946D84 /* RottenTomatoes */;
+			targetProxy = 13CFE2B5180F873D00946D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13CFE29B180F873D00946D84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CFE29C180F873D00946D84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13CFE2A4180F873D00946D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CFE2A5180F873D00946D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13CFE2BA180F873D00946D84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CFE2BB180F873D00946D84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13CFE2BF180F873E00946D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13CFE2C0180F873E00946D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13CFE2C2180F873E00946D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B8603E9DA74C80BAD81B57 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RottenTomatoes/RottenTomatoes-Prefix.pch";
+				INFOPLIST_FILE = "RottenTomatoes/RottenTomatoes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13CFE2C3180F873E00946D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B8603E9DA74C80BAD81B57 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RottenTomatoes/RottenTomatoes-Prefix.pch";
+				INFOPLIST_FILE = "RottenTomatoes/RottenTomatoes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13CFE2C5180F873E00946D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RottenTomatoes.app/RottenTomatoes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RottenTomatoes/RottenTomatoes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RottenTomatoesTests/RottenTomatoesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		13CFE2C6180F873E00946D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RottenTomatoes.app/RottenTomatoes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RottenTomatoes/RottenTomatoes-Prefix.pch";
+				INFOPLIST_FILE = "RottenTomatoesTests/RottenTomatoesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CFE28A180F873D00946D84 /* Build configuration list for PBXProject "RottenTomatoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CFE2BF180F873E00946D84 /* Debug */,
+				13CFE2C0180F873E00946D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CFE2C1180F873E00946D84 /* Build configuration list for PBXNativeTarget "RottenTomatoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CFE2C2180F873E00946D84 /* Debug */,
+				13CFE2C3180F873E00946D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CFE2C4180F873E00946D84 /* Build configuration list for PBXNativeTarget "RottenTomatoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CFE2C5180F873E00946D84 /* Debug */,
+				13CFE2C6180F873E00946D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13CFE287180F873D00946D84 /* Project object */;
+}
