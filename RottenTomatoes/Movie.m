@@ -15,8 +15,14 @@
     NSMutableArray *movies = [[NSMutableArray alloc] init];
     for (NSDictionary *parameters in array) {
         Movie *movie = [[Movie alloc] init];
-        movie.title = parameters[@"title"];
-        movie.starring = parameters[@"abridged_cast"][0][@"name"];
+        movie.title = [parameters objectForKey:@"title"];
+
+        NSMutableArray *stars = [[NSMutableArray alloc] init];
+        for (NSDictionary *member in [parameters objectForKey:@"abridged_cast"]) {
+            [stars addObject:[member objectForKey:@"name"]];
+        }
+        movie.starring = [stars componentsJoinedByString:@", "];
+
         [movies addObject:movie];
     }
     return movies;

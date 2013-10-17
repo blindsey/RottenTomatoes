@@ -134,12 +134,12 @@
 				13CFE299180F873D00946D84 /* Supporting Files */,
 				13CFE2C7180F875B00946D84 /* BoxOfficeViewController.h */,
 				13CFE2C8180F875B00946D84 /* BoxOfficeViewController.m */,
+				13CFE2D0180F92DF00946D84 /* Movie.h */,
+				13CFE2D1180F92DF00946D84 /* Movie.m */,
 				13CFE2CA180F88C000946D84 /* MovieCell.h */,
 				13CFE2CB180F88C000946D84 /* MovieCell.m */,
 				13CFE2CD180F8F8100946D84 /* RottenTomatoesClient.h */,
 				13CFE2CE180F8F8100946D84 /* RottenTomatoesClient.m */,
-				13CFE2D0180F92DF00946D84 /* Movie.h */,
-				13CFE2D1180F92DF00946D84 /* Movie.m */,
 			);
 			path = RottenTomatoes;
 			sourceTree = "<group>";
